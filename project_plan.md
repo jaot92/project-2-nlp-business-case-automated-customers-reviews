@@ -9,10 +9,57 @@
 ## 2. Recopilación y Preparación de Datos (3 días)
 - [ ] Descargar dataset de Amazon Reviews
 - [ ] Realizar análisis exploratorio inicial (EDA)
+  ### 2.1 Análisis Estadístico Básico
   - Distribución de ratings
-  - Longitud de reseñas
-  - Categorías de productos más comunes
-  - Balance de clases
+  - Estadísticas descriptivas (media, mediana, moda, desviación estándar)
+  - Identificación de outliers
+  - Análisis de valores faltantes
+  
+  ### 2.2 Análisis Temporal
+  - Tendencias temporales de ratings
+  - Estacionalidad en las reseñas
+  - Frecuencia de reseñas por día/mes/año
+  - Evolución del sentimiento a lo largo del tiempo
+  
+  ### 2.3 Análisis de Texto
+  - Longitud de reseñas (caracteres y palabras)
+  - Frecuencia de palabras
+  - Análisis de n-gramas más comunes
+  - Identificación de emojis y símbolos especiales
+  - Análisis de puntuación y mayúsculas
+  - Detección de idiomas
+  
+  ### 2.4 Análisis de Productos y Categorías
+  - Distribución de reseñas por categoría de producto
+  - Ratings promedio por categoría
+  - Productos más reseñados
+  - Correlación entre precio y rating
+  
+  ### 2.5 Análisis de Usuarios
+  - Distribución de reseñas por usuario
+  - Identificación de usuarios más activos
+  - Patrones de comportamiento de usuarios
+  - Análisis de verified purchases vs non-verified
+  
+  ### 2.6 Análisis de Sentimiento Preliminar
+  - Balance de clases (positivo/negativo/neutral)
+  - Palabras más comunes por sentimiento
+  - Relación entre longitud de reseña y sentimiento
+  - Análisis de helpful votes vs sentimiento
+  
+  ### 2.7 Visualizaciones
+  - Heatmaps de correlación
+  - Wordclouds por categoría y sentimiento
+  - Gráficos de distribución
+  - Gráficos de series temporales
+  - Diagramas de caja para outliers
+  
+  ### 2.8 Análisis de Calidad de Datos
+  - Detección de spam o reseñas falsas
+  - Identificación de duplicados
+  - Análisis de consistencia
+  - Evaluación de la calidad del texto
+  
 - [ ] Crear pipeline de preprocesamiento de datos
   - Limpieza de texto
   - Tokenización
